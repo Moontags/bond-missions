@@ -1,0 +1,47 @@
+body {
+  background: url('images/jb.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 40px;
+  text-shadow: 2px 2px 5px black;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 368px auto;
+  width: 300px;
+}
+
+ul li {
+  margin: 20px 0;
+  text-align: center;
+  
+}
+
+ul li a {
+  color: rgb(249, 249, 251);
+  opacity: 0.5;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 10px 20px;
+  background-color: black;
+  border: 2px solid white;
+  border-radius: 5px;
+  display: inline-block;
+  transition: 0.3s ease;
+}
+
+ul li a:hover {
+  background-color: white;
+  color: black;
+}

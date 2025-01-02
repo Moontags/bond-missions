@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+  <title>Agent Login</title>
+</head>
+<body>
+   <h1 id="agent"></h1>
+   <button id="job" disabled>Continue</button>
+   
+   <div id="login-modal" class="modal">
+     <div class="modal-content">
+       <h2>AGENT ID</h2>
+       <label for="username">Agent:</label>
+       <input type="text" id="username" placeholder="name">
+       <label for="password">Password:</label>
+       <input type="password" id="password" placeholder="password">
+       <button id="login-btn">Login</button>
+       <p id="error-message" class="error"></p>
+     </div>
+   </div>
+
+   <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+   <script src="script.js"></script>
+</body>
+</html>
